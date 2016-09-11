@@ -1,7 +1,7 @@
 # s3load
 Simple Data Loader for S3 - Scales to millions of objects. 
-AWS S3 - because of rate limiting on S3 buckets, number of objects may be lesser
-Does not retry on failed puts
+- AWS S3 - because of rate limiting on S3 buckets, PUTs may be denied 
+- Does not retry on failed puts (e.g access denied on rate limiting)
 
 
 ```
