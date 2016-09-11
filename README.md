@@ -8,7 +8,7 @@ usage: s3load --config {configFile} --cmd {pb,db,put,get,del}
            cmd:    pb=put bucket, db=delete bucket, put=put object, get=get object,del= delete object
 
 Config file looks like the following:
-
+```
 {
    "endpoint"       : "https://your-s3-endpoint",
    "accessId"       : "",
@@ -28,6 +28,6 @@ Config file looks like the following:
 			     "             MyBucketTest1 \\ myObj1",
 			     "             MyBucketTest2 \\ myObj10000"]
  }
-
+```
 This file will create 
 1 Buckets ( MyBucketTest1 ) each bucket having 10,000 objects (myObj1..myObj10000) of 16KB each
