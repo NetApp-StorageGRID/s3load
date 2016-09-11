@@ -1,11 +1,16 @@
 # s3load
-Simple Data Loader for S3 - Scales to millions of objects
+Simple Data Loader for S3 - Scales to millions of objects. 
+AWS S3 - because of rate limiting on S3 buckets, number of objects may be lesser
+Does not retry on failed puts
 
 
-usage: s3load --config {configFile} --cmd {pb,db,put,get,del}
-           config: open this executable to see config file format. 
-           default: --config ./s3load.config
+```
+usage: s3load --cmd {pb,db,put,get,del}   [--config {configFile}]
            cmd:    pb=put bucket, db=delete bucket, put=put object, get=get object,del= delete object
+           config file: 
+               default: ./s3load.config
+               format: head -n 25 /Users/vardhan/play/nodejs/s3load/s3load.js
+```
 
 Config file looks like the following:
 ```
