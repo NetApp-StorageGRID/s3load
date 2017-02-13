@@ -1,5 +1,5 @@
 # s3load
-Simple Data Loader for S3 - Scales to millions of objects. 
+NodeJS based simple Data Loader for S3 - Scales to millions of objects. 
 - AWS S3 - because of rate limiting on S3 buckets, PUTs may be denied 
 - Does not retry on failed puts (e.g access denied on rate limiting)
 
