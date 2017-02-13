@@ -1,9 +1,6 @@
 # s3load
 NodeJS based simple Data Loader for S3 - Scales to millions of objects. Loads dummy data as specified in config file
 
-Cautions:
-AWS S3 - because of rate limiting on S3 buckets, PUTs may be denied. Does not retry on failed puts (e.g access denied on rate limiting)
-
 INSTALL & RUN:
 
 $ npm install
@@ -42,3 +39,6 @@ Config file looks like the following:
 ```
 This file will create 
 1 Buckets ( MyBucketTest1 ) each bucket having 10,000 objects (myObj1..myObj10000) of 16KB each
+
+Cautions:
+AWS S3 - because of rate limiting on S3 buckets, PUTs may be denied. Does not retry on failed puts (e.g access denied on rate limiting)
