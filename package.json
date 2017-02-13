@@ -1,0 +1,28 @@
+{
+  "name": "s3load",
+  "version": "1.0.0",
+  "description": "Simple s3 load generator",
+  "main": "s3load",
+  "dependencies": {
+    "aws-sdk": "^2.4.12",
+    "debug": "^2.2.0",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishnu Vardhan",
+  "license": "MIT",
+  "bin": {
+    "s3load": "./s3load.js"
+  },
+  "keywords": [
+    "s3",
+    "load",
+    "generator"
+  ]
+}

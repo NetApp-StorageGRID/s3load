@@ -1,0 +1,15 @@
+This script creates/deletes millions of objects in an S3 repository with dummy data. Used for generating artificial load, or preloading data for cosbench, since cosbench is particularly slow
+
+Steps to follow
+
+1. Create config file. 
+    - default is s3load.config
+    - s3load.js has the format
+
+2. Run  (example)
+    $ node s3load.js --cmd pb
+
+3. To install and then run
+    $ cd <directory where s3load has been downloaded>
+    $ sudo npm install -g
+    $ s3load
