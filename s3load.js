@@ -1,5 +1,5 @@
 #! /usr/bin/env node --stack-trace-limit=0
-
+ 
 /*---- config file format - copy and save in another file
 {
    "endpoint"       : "https://your-s3-endpoint",
