@@ -1,7 +1,7 @@
 # s3load
 NodeJS based simple Data Loader for S3 - Scales to millions of objects. Loads dummy data as specified in config file
 
-INSTALL & RUN:
+INSTALL & RUN: 
 
 $ npm install
 $ ./s3load --cmd pb  # to create all the buckets specified in the config file
