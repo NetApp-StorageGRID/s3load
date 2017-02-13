@@ -24,5 +24,13 @@
     "s3",
     "load",
     "generator"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vardhanv/s3load.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vardhanv/s3load/issues"
+  },
+  "homepage": "https://github.com/vardhanv/s3load"
 }
